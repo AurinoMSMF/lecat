@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+############################
+#Une os comandos cat e less#
+############################
+
+read -ep " " file
+cat $file | less
