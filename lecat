@@ -3,5 +3,5 @@
 #Une os comandos cat e less#
 ############################
 
-read -ep " " file
+read -ep "File name:" file
 cat $file | less
