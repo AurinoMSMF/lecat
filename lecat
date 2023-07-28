@@ -5,4 +5,4 @@
 #Join the commands cat and less. That's it.#
 ############################################
 read -ep "File name: " file
-cat $file | less -N
+cat $file | less
